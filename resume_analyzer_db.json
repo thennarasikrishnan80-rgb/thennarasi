@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Default Candidate",
+      "email": "candidate@example.com"
+    }
+  ],
+  "resume_analyses": [
+    {
+      "id": 1,
+      "filename": "Pasted Text",
+      "candidate_name": "John Doe",
+      "job_title": "Software Engineer",
+      "ats_score": 75,
+      "matched_skills": "[\"React\",\"Node\",\"TypeScript\"]",
+      "missing_skills": "[\"Professional Work History\",\"RESTful APIs\",\"Database Management\",\"State Management\"]",
+      "suggestions": "[{\"category\":\"Experience formatting\",\"detail\":\"Expand the resume by adding a dedicated Professional Experience section. Use bullet points starting with strong action verbs to describe how you applied React and Node in past roles, focusing on quantifiable achievements and business impact.\"},{\"category\":\"Keywords\",\"detail\":\"Integrate key secondary technologies typically associated with React and Node, such as databases (SQL/NoSQL), state management libraries (Redux), testing frameworks (Jest), and API development practices.\"},{\"category\":\"Resume Structure\",\"detail\":\"Include standard resume sections such as an Education section, a brief professional summary, and a Projects section to demonstrate practical application of your skills.\"}]",
+      "extracted_text": "John Doe\nSoftware Engineer\nSkills: React, Node, TypeScript",
+      "job_description": "Looking for a Software Engineer with React and Node experience.",
+      "created_at": "2026-07-17T13:35:15.158Z"
+    }
+  ],
+  "nextUserId": 2,
+  "nextAnalysisId": 2
+}
